@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/*reset*/
+html, body {
+    box-sizing: border-box;
+    min-height: 150vh;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, h1, h2, h3, h4, h5, h6, span, li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* reset end*/
+
+/* nav styling*/
+
+a:any-link {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+    border-bottom: 1px solid #000;
+    padding: 30px 0;
+}
+
+/* nav styling end*/
+
+/* home page cards*/
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+    gap: 112px;
+}
+
+main div.cards {
+    border: 1px solid #000;
+    width: 333px;
+}
+
+main div.cards img {
+    padding: 10px 11px;
+}
+main div.box {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+main div.cards .content {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 0 20px 21px 20px;
+}
+
+main div.cards .content .title {
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+main div.cards .content .excerpt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    word-wrap: break-all;
+}
+
+a.see-more-btn {
+    text-align: right;
+}
+a.see-more-btn span {
+    font-size: 12px;
+    border: 1px solid #000;
+    padding: 6px 26px;
+    border-radius: 4px;
+}
+
+/* home page cards END*/
+
+
+div.information-box {
+    display: block;
+    margin: 183px auto;
+}
+
+ul {
+    padding-left: 175px;
+}
+ul li {
+    font-weight: 400;
+    font-size: 25px;
+    color: #000;
+    padding-bottom: 28px;
+}
+
+.information-box h1 {
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 117px;
+}
+
+ul li:first-child {
+    text-decoration: underline;
+}
+
+
+/* about us*/
+
+.information-box .description {
+    margin-left: 175px;
+    width: 775px;
+    font-size: 25px;
+    line-height: 37.5px;
+}
+
+.information-box .description p:last-child {
+    margin-top: 108px;
+}
